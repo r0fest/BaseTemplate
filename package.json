@@ -1,0 +1,11 @@
+{
+  "name": "basetemplate",
+  "version": "1.0.0",
+  "description": "Start template project for fast PSD to HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Shilkin",
+  "license": "ISC"
+}
