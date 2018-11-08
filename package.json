@@ -4,8 +4,23 @@
   "description": "Start template project for fast PSD to HTML",
   "main": "index.js",
   "scripts": {
+    "start": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergey Shilkin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {}
 }
